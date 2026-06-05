@@ -24,7 +24,8 @@
   justify-content: space-between;
   padding-left: 118px;
   padding-right: 118px;
-  position: sticky;
+  position: fixed;
+  z-index:100;
   top: 0;
 }
 
@@ -35,8 +36,8 @@
 
 .navbar-item {
   font-size: 18px;
-  font-weight: 600px;gi
-  color: #ffffff;
+  font-weight: 600px;
+  color: white;
 }
 
 /* Hero Section Texts */
@@ -47,6 +48,7 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-top:400px;
 }
 
 #pure {
